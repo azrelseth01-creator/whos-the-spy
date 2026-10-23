@@ -1,0 +1,6 @@
+/* Colors and light/dark themes. Edit the variables to re-skin the app. */
+:root{--bg:#1a1530;--sf:#261e47;--sf2:#30275a;--ink:#f3efff;--mute:#a79fc9;--acc:#ffc857;--bad:#ff4d8d;--ok:#4de1c1;--ln:#3d336d;
+ box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f4f1ff;--sf:#fff;--sf2:#ebe6ff;--ink:#231a45;--mute:#6d6493;--acc:#c98600;--bad:#d6246b;--ok:#0d9b7e;--ln:#d6cff5}}
+:root[data-theme="light"]{--bg:#f4f1ff;--sf:#fff;--sf2:#ebe6ff;--ink:#231a45;--mute:#6d6493;--acc:#c98600;--bad:#d6246b;--ok:#0d9b7e;--ln:#d6cff5}
+:root[data-theme="dark"]{--bg:#1a1530;--sf:#261e47;--sf2:#30275a;--ink:#f3efff;--mute:#a79fc9;--acc:#ffc857;--bad:#ff4d8d;--ok:#4de1c1;--ln:#3d336d}
